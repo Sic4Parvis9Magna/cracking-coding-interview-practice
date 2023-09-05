@@ -1,15 +1,15 @@
 package org.example.arrays_strings;
-/*
+/**
 * Given two strings, write a method to decide if one is a permutation of the other
-*
+* <p>
 * Status: completed
-*
+* <p>
 * */
 public class ArraysAndStringsTask3 {
     private static final int ASCII_SET_SIZE = 128;
 
     // TODO: 05/09/2023 cross review with given solution
-    /*
+    /**
      * Solution 1:
      * O(n1+n2) in time as we walk over the strings only once
      * O(1) in memory as we only store 128 int independent of the string size
